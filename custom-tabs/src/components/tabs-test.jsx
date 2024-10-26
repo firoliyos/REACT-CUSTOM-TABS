@@ -19,7 +19,11 @@ export default function TabsTest() {
             content: <SomeRandomContent />
         }
     ]
-    
+
+    function handleChange(currentTabIndex) {
+        console.log(currentTabIndex)
+    }
+
     return <Tabs tabsContent={tabs} onChange={handleChange} />
 }
 
