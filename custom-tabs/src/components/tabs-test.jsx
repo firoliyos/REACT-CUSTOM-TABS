@@ -8,14 +8,14 @@ export default function TabsTest() {
     const tabs = [
         {
             label: 'Tab 1',
-            content : <div>TIS IS CONTENT FOR TAB 1</div>
+            content : <h1>THIS IS CONTENT FOR TAB 1</h1>
         },
         {
-            label: 'Tab 1',
-            content : <div>TIS IS CONTENT FOR TAB 1</div>
+            label: 'Tab 2',
+            content : <h1>THIS IS CONTENT FOR TAB 2</h1>
         },
         {
-            label: 'Tab 1',
+            label: 'Tab 3',
             content: <SomeRandomContent />
         }
     ]
