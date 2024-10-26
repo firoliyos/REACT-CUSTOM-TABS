@@ -1,3 +1,48 @@
+import Tabs from "./tabs"
+
+export default function TabsTest() {
+
+    function SomeRandomContent(){
+        return <h1>SOME RANDOM CONTENT</h1>
+    }
+    const tabs = [
+        {
+            label: 'Tab 1',
+            content : <div>TIS IS CONTENT FOR TAB 1</div>
+        },
+        {
+            label: 'Tab 1',
+            content : <div>TIS IS CONTENT FOR TAB 1</div>
+        },
+        {
+            label: 'Tab 1',
+            content: <SomeRandomContent />
+        }
+    ]
+    
+    return <Tabs tabsContent={tabs} onChange={handleChange} />
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import Tabs from "./tabs"
 
 // function RandomComponent() {
