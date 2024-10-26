@@ -1,8 +1,9 @@
+import TabTest from "./components/tabs-test";
 
 function App() {
   return (
     <div className="App">
-     Hello
+     <TabTest />
     </div>
   );
 }
