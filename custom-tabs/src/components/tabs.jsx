@@ -11,11 +11,11 @@ export default function Tabs({tabsContent, onChange}) {
       <div className="wrapper">
         <div className="heading">
            {
-            tabsContent.map((tabItem, index) => {<div
+            tabsContent.map((tabItem, index) => (<div
              onClick={() => handleClick(index)}
              key={tabItem.label}>
               <span className="label">{tabItem.label}</span>
-            </div>})
+            </div>))
            }
         </div>
         <div className="content">
